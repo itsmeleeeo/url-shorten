@@ -1,0 +1,7 @@
+POST http://localhost:3333/links
+Content-Type: application/json
+
+{
+    "code": "youtube",
+    "url": "https://www.youtube.com"
+}

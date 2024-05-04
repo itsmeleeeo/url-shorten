@@ -7,6 +7,9 @@ async function setup() {
         original_url TEXT,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     )`
+
+    await sql.end();
+    console.log("Setup complete successfully");
 }
 
 setup();
